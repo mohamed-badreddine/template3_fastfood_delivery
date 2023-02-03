@@ -925,7 +925,7 @@ header .nav .bar{
 /* start footer */
 footer{
     padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+    padding-bottom: 40px;
 }
 footer .container{
     display: flex;
@@ -1045,7 +1045,10 @@ footer .container>p span{
         margin:0 auto;
     }
 }
-
-
-
+@media (max-width: 768px){
+    footer .container>p{
+        font-size: 12px;
+        text-align: center;
+    }
+}
 /* end footer */
